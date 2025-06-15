@@ -1,0 +1,78 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(to right, #373b44, #4286f4);
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Container */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Profile Image */
+.image-box img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 10px;
+}
+
+/* Info Box */
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 600px;
+}
+
+/* Cards */
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #cfcfcf;
+}

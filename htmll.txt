@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vishal Kumar Sah - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="intro-text">
+            <h1>Hi, I'm <span>Vishal Kumar Sah</span></h1>
+            <p>
+                I'm a full-stack developer and Machine Learning enthusiast. I'm looking for software developer internships.<br>
+                Explore my work, projects, and contact me for collaborations!
+            </p>
+            <a href="mailto:vishals.ug22.cs@nitp.ac.in" class="btn">Contact me</a>
+        </div>
+        <div class="profile-pic">
+            <img src="photo.jpeg" alt="Vishal Kumar Sah">
+        </div>
+    </section>
+</body>
+</html>
